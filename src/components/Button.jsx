@@ -2,13 +2,7 @@ import React from "react";
 import "./Button.css";
 
 const Button = (props) => {
-  return (
-    <div>
-      <p>TEste</p>
-      <button className="button">TESTE</button>
-    </div>
-  );
+  return <button className="button">{props.label}</button>;
 };
 
-
-export default Button
+export default Button;
