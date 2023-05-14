@@ -6,6 +6,10 @@ export default class Calculator extends Component {
     return (
       <div className="calculator">
         <Button />
+        <Button />
+        <Button />
+        <Button />
+        <Button />
       </div>
     );
   }
